@@ -14,6 +14,7 @@ body {
   margin-left: auto;
   padding-top: 85px;
   padding-bottom: 51px;
+  min-width: 555px;
 }
 
 #navLinks {
@@ -25,8 +26,13 @@ body {
   bottom: 0;
   font-size: 1.5em;
   padding-top: 64px;
+  width: 380px;
 }
 
 #navLinks a {
   text-decoration: none;
+  display: block;
+  float: left;
+  width: 25%;
+  text-align: center;
 }
